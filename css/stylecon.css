@@ -315,11 +315,12 @@ main{
     padding: 70px 0px;
 }
 .contact{
-    padding: 0px 23px;
+    /* padding: 0px 23px; */
     box-sizing: border-box;
     font-size: 22px;
     font-weight: bold;
     text-align: left;
+    padding-left: 7px
 }
 .footer-fourth{
     padding: 20px 0px;
