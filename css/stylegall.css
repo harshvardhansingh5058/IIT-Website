@@ -218,22 +218,27 @@ main{
     margin: 20px 20px 0px 25px;
 }
 .gallery-floor-1{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     gap: 25px;
     margin: 45px 0px;
-    align-items: center;
-    flex-grow: 1;
+    /* align-items: center;
+    flex-grow: 1; */
 
+}
+.gallery-floor-1 > div{
+    flex:1;
 }
 
 .gallery-img-1{
-    width: 100%;
+    /* width: 100%; */
     /* border: 2px solid black; */
     border-radius: 5px;
 }
 .gallery-img-1 img {
-    width: 90%;
+    width: 100%;
+    height: 220px;
+    display: block;
     /* border: 2px solid black; */
     border-radius: 5px 5px 0px 0px;
 }
@@ -244,14 +249,14 @@ main{
     /* font-weight: bold; */
     background-color: #343130;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 15px 0px;
     border-radius: 0px 0px 5px 5px;
 
 }
 .grp-2 img{
-    height: 90%;
-    width: 90%;
+    height: 220px;
+    width: 100%;
 }
 .footer-inner{
     background-color: #343130;
